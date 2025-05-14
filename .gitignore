@@ -1,0 +1,66 @@
+# קבצי build של .NET
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+# קבצי Rider
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sdf
+*.cache
+*.dbmdl
+*.VC.db
+*.opendb
+
+# קבצים זמניים
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# תוצאות בדיקה
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+
+# קבצי חבילות
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Auto-generated files
+*.Generated.cs
+*_i.c
+*_p.c
+*_i.h
+*.dll
+*.exe
+*.pdb
+
+# קבצי מערכת
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# קבצי IDE נוספים
+.vscode/
+*.swp
+*.swo
+
+# קבצי publish
+publish/
+
+# קבצי docker/CI
+*.env
+*.local.settings.json
