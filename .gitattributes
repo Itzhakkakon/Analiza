@@ -1,0 +1,28 @@
+# הגדלת עקביות בין מערכות הפעלה שונות (macOS / Windows)
+# שומר שורות בפורמט LF (Unix-style) בכל הקבצים בגיט
+* text eol=lf
+
+# קבצי בינארי - אל תיגע בסיומות שורות
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.exe binary
+*.dll binary
+*.mp4 binary
+*.mov binary
+
+# שמירה על פורמט קוד C#, HTML וכו'
+*.cs  text eol=lf
+*.cshtml text eol=lf
+*.html text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
