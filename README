@@ -1,0 +1,4 @@
+חובה להקליד את הפקודה הבאה לבעלי ווינדוס
+git config --global core.autocrlf true
+ובעלי מק את זה
+git config --global core.autocrlf input
