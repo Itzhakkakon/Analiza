@@ -2,3 +2,9 @@
 git config --global core.autocrlf true
 ובעלי מק את זה
 git config --global core.autocrlf input
+
+חברי צוות:
+צבי זית
+שמואל גרוס
+אליהו שטינמן
+יצחק קקון
